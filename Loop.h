@@ -14,7 +14,7 @@ Useful for multi-thread
 #include <vector>
 #include <boost/shared_ptr.hpp>
 #include <boost/function.hpp>
-#include<boost/bind.hpp>
+#include <boost/bind.hpp>
 #include "time/AbsoluteTimer.h"
 
 // constexpr int THREAD_PRIORITY    = 99;   // real-time priority

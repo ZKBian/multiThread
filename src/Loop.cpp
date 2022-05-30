@@ -57,8 +57,8 @@ void Loop::shutdown() {
 
 void Loop::entryFunc() {
   while (_isrunning) {
-    ++_runTimes;
     _timer->start();
+    ++_runTimes;
     functionCB();
     if(!_timer->wait()){
       ++_timeOutTimes;
